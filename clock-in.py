@@ -95,8 +95,8 @@ class DaKa(object):
         new_info['number'] = number
         new_info["date"] = self.get_date()
         new_info["created"] = round(time.time())
-        new_info["address"] = "浙江省嘉兴市海宁市"
-        new_info["area"] = "浙江省 嘉兴市 海宁市"
+        new_info["address"] = "安徽省安庆市太湖县"
+        new_info["area"] = "安徽省 安庆市 太湖县"
         new_info["province"] = new_info["area"].split(' ')[0]
         new_info["city"] = new_info["area"].split(' ')[1]
         # form change
